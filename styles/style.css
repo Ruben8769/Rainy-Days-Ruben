@@ -17,6 +17,17 @@ body{
     font-family: Montserrat, 'Seoge UI';
 }
 
+hr{
+    margin-bottom: 40px;
+    background-color: var(--secondary-color);
+    height: 2px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
 /* Header */
 header{
     width: 100%;
@@ -54,34 +65,96 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 a:link{
     color: #fff;
     text-decoration: none;
     font-size: 30px;
-    margin-left: 50px;
+}
+
+a:link:hover{
+    color: #a4a4a4;
 }
 
 /* Herobanner */
 .herobanner{
+    background-image: url(../img/herobanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 369px;
+    height: 40vh;
     display: flex;
 }
 
-.herobannerH1{
+.herobannerH1, .herobannerH2{
     width: 50%;
     height: 100%;
     font-size: 40px;
     font-weight: 500;
-    background-color: var(--fourth-color);
+    color: #fff;
 }
 
 .herobannerH2{
-    width: 50%;
-    height: 100%;
     font-size: 20px;
-    font-weight: 500;
-    background-color: var(--secondary-color);
+}
+
+.herobannerH1Text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.herobannerH2Text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    margin: -5%;
+}
+
+/* Tre images */
+.treImages{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.TIimageOne{
+    width: 25%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+/* Ukens tilbud */
+.ukensTilbud{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.ukensTibudTxt{
+    font-size: 200%;
+}
+
+.ukensTilbudImages{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.UIimages{
+    background-image: url(../img/jacket.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    width: 200px;
+    height: 270px;
 }
