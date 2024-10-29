@@ -1,0 +1,87 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Color */
+:root{
+    --primary-color: #314E5D;
+    --secondary-color: #84C1E0;
+    --third-color: #F2F2F2;
+    --fourth-color: #F3A528;
+}
+
+/* Style */
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    font-family: Montserrat, 'Seoge UI';
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+/* Header: Logo */
+.logo{
+    height: 90px;
+    width: 50%;
+}
+
+.textLogo{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 52px;
+}
+
+.logoLine{
+    background-color: var(--fourth-color);
+    width: 280px;
+    height: 2px;
+}
+
+/* Header: Menu */
+.menu{
+    height: 90px;
+    width: 50%;
+}
+
+.textMenu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+/* Herobanner */
+.herobanner{
+    width: 100%;
+    height: 369px;
+    display: flex;
+}
+
+.herobannerH1{
+    width: 50%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: var(--fourth-color);
+}
+
+.herobannerH2{
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: var(--secondary-color);
+}
