@@ -28,6 +28,11 @@ img{
     height: 100%;
 }
 
+h1{font-weight: 700;color: #fff;}
+h2{font-weight: 400;color: #fff;}
+h3{font-weight: 700;color: #fff;}
+p{font-weight: 400;color: #fff;}
+
 /* Header */
 header{
     width: 100%;
@@ -91,27 +96,20 @@ a:link:hover{
 .herobannerH1, .herobannerH2{
     width: 50%;
     height: 100%;
-    font-size: 40px;
-    font-weight: 500;
-    color: #fff;
 }
 
-.herobannerH2{
-    font-size: 20px;
-}
-
-.herobannerH1Text{
+.herobannerH1Text, .herobannerH2Text{
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+}
+
+.herobannerH1Text{
+    margin-top: 5%;
     justify-content: center;
 }
 
 .herobannerH2Text{
-    width: 100%;
-    height: 100%;
-    display: flex;
     align-items: end;
     justify-content: right;
     margin: -5%;
@@ -140,9 +138,6 @@ a:link:hover{
 }
 
 .ukensTibudTxt{
-    font-size: 200%;
-    color: #fff;
-    font-weight: 500;
     margin-left: 100px;
     margin-bottom: 20px;
 }
@@ -153,12 +148,90 @@ a:link:hover{
     justify-content: center;
 }
 
+/* Ukens tilbud: Pictures */
 .UTimages{
-    background-color: var(--fourth-color);
+    background-color: var(--third-color);
+    border-radius: 5px;
+    width: 300px;
+    height: 470px;
+}
+
+.UTimageJK{
+    background-image: url(../img/jacket.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 5px;
-    width: 300px;
-    height: 470px;
+    width: 100%;
+    height: 70%;
+}
+
+.UTimageTxt{
+    margin: 10px;
+    color: #000;
+}
+
+/* Fornoyde kunder */
+.fornoydeKunder{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.FKtxt{
+    margin-left: 100px;
+}
+
+.FKboxes{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.FKbox{
+    background-color: var(--third-color);
+    border-radius: 5px;
+    width: 30%;
+    height: 25vh;
+    display: flex;
+}
+
+.FKprofilePicture{
+    display: flex;
+    width: 40%;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.FLpp{
+    height: 60%;
+    width: 60%;
+}
+
+.FKreview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 25vh;
+}
+
+.FKrt{
+    color: #000;
+}
+
+.star{
+    width: 20px;
+    height: 20px;
+    color: #F3A528;
+}
+
+.starBlack{color: #000;}
+
+/* Footer */
+footer{
+    background-color: #1C2E37;
+    width: 100%;
+    height: 40vh;
 }
