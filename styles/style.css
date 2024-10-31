@@ -233,7 +233,7 @@ a:link:hover{
 footer{
     background-color: #1C2E37;
     width: 100%;
-    height: 30vh;
+    height: 33vh;
 }
 
 /* Footer: Text */
@@ -251,25 +251,28 @@ footer{
     height: 25vh;
 }
 
-.snarveierTxt{margin-left: 40%;}
-.anpnigstiderTxt{margin-left: 40%;}
-.contactTxt{margin-left: 40%;}
+.snarveierTxt, .anpnigstiderTxt, .contactTxt{margin-left: 40%;}
 
 /* Footer: Icons */
 .footerCompanyLogo{
     width: 100%;
-    height: 5vh;
-    background-color: var(--fourth-color);
+    height: 7vh;
+}
+
+.CompanyLogos{
     display: flex;
     align-items: end;
+    justify-content: end;
+    gap: 1vw;
+    margin-right: 2vw;
 }
 
 .CompanyLogos div{
-    background-color: var(--secondary-color);
     width: 3vw;
     height: 5vh;
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 
 .facebookIcon{background-image: url(../img/facbook-icon.png);}
