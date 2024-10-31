@@ -74,13 +74,13 @@ header{
 }
 
 a:link{
-    color: #fff;
+    color: #FFFFFFB5;
     text-decoration: none;
     font-size: 30px;
 }
 
 a:link:hover{
-    color: #a4a4a4;
+    color: #fff;
 }
 
 /* Herobanner */
