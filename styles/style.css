@@ -233,5 +233,45 @@ a:link:hover{
 footer{
     background-color: #1C2E37;
     width: 100%;
-    height: 40vh;
+    height: 30vh;
 }
+
+/* Footer: Text */
+.footerBoxOne{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+}
+
+.footerBoxOne div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33.33%;
+    height: 25vh;
+}
+
+.snarveierTxt{margin-left: 40%;}
+.anpnigstiderTxt{margin-left: 40%;}
+.contactTxt{margin-left: 40%;}
+
+/* Footer: Icons */
+.footerCompanyLogo{
+    width: 100%;
+    height: 5vh;
+    background-color: var(--fourth-color);
+    display: flex;
+    align-items: end;
+}
+
+.CompanyLogos div{
+    background-color: var(--secondary-color);
+    width: 3vw;
+    height: 5vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.facebookIcon{background-image: url(../img/facbook-icon.png);}
+.instagramIcon{background-image: url(../img/instagram-icon.png);}
+.snapchatIcon{background-image: url(../img/snapchat-icon.png);}
