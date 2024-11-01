@@ -118,7 +118,7 @@ a:link:hover{
 /* Tre images */
 .treImages{
     width: 100%;
-    height: 350px;
+    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,9 +128,10 @@ a:link:hover{
 .TIimage{
     width: 25%;
     height: 80%;
+    overflow: hidden;
+    box-shadow: 4px 4px 5px #00000037;
+    border-radius: 5px;
 }
-
-.TIimageImg{border-radius: 10px;}
 
 /* Ukens tilbud */
 .ukensTilbud{
