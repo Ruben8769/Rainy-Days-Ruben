@@ -115,7 +115,7 @@ a:hover{color: #fff;}
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 5vw;
 }
 
 .TIimage{
@@ -139,7 +139,7 @@ a:hover{color: #fff;}
 
 .ukensTilbudImages{
     display: flex;
-    gap: 60px;
+    gap: 4vw;
     justify-content: center;
 }
 
@@ -194,7 +194,7 @@ a:hover{color: #fff;}
 .FKboxes{
     width: 100%;
     display: flex;
-    gap: 40px;
+    gap: 3vw;
     justify-content: center;
 }
 
