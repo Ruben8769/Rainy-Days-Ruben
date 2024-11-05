@@ -73,15 +73,8 @@ header{
     gap: 50px;
 }
 
-a:link{
-    color: #FFFFFFB5;
-    text-decoration: none;
-    font-size: 30px;
-}
-
-a:link:hover{
-    color: #fff;
-}
+a{color: #FFFFFFB5;text-decoration: none;font-size: 30px;}
+a:hover{color: #fff;}
 
 /* Herobanner */
 .herobanner{
